@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@1&family=Roboto:wght@300&display=swap');
+
+:root {
+    --cor1: #665149;
+    --cor2: #FF936B;
+    --cor3: #E6B6A5;
+    --cor4: #711F01;
+    --cor5: #BA9486;
+    --font-titulo: 'Roboto', sans-serif ;
+    --font-texto: 'Inclusive Sans', sans-serif;;
+}
+body {
+    background-color:#665149;
+    margin: 0;
+}
+header {
+    border: 1px solid;
+    height: 15vh;
+    background-color: #BA9486;
+    display: flex;
+}
+header > #left {
+    width: 50%;
+}
+header > #left> h2 {
+    color: aliceblue;
+    font-family:var(--font-titulo);
+    font-size: 35px;
+    margin: 35px;
+    letter-spacing: 7px;
+}
+header > #right {
+    width: 50%;
+}
+header > #right > nav {
+    padding: 5vh 0px;
+}
+header > #right > nav > a{
+    font-size: 35px;
+    font-family: var(--font-titulo);
+    padding: 0px 10px;
+    color: white;
+    text-decoration: none;
+}
